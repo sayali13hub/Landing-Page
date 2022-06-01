@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase {
+    position: static;
+    right: 0;
+    width: 100px;
+    min-height: 20vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -2;
+
+}
+
+.showcase header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 90px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(whitetoggle.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding: 400px 300px 100px 300px;
+    z-index: 100;
+}
+
+.text h1 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: medium;
+    box-sizing: border-box;
+    border: 2px solid rgb(71, 199, 193);
+    border-radius: 30px;
+    background-color: rgb(71, 199, 193);
+    margin: 10px 140px;
+    padding: 10px;
+    width: 250px;
+}
+
+h4:hover {
+    letter-spacing: 2px;
+    background-color: rgb(132, 170, 201);
+    color: white;
+}
+
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-left: 190px;
+}
+
+.content-container {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.content-container h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+.content-container h4 {
+    margin-top: 40px;
+    margin-left: 1px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: rgb(13, 87, 13);
+    border: 0px;
+    color: aliceblue;
+}
+
+.section-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.content-container1 {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.section-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.content-container2 {
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.logo {
+
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    height: 30px;
+    width: 30px;
+    background-color: gainsboro;
+
+
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.content-container2 h4 {
+    margin-top: 10px;
+    margin-left: 1px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: rgb(13, 87, 13);
+    border: 0px;
+    color: aliceblue;
+}
+
+.flex-container .section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.container div {
+    border-radius: 30px;
+    border: 2px solid rgb(233, 225, 225);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(233, 225, 225, 0.39);
+}
+
+.left-col,
+.center-col,
+.right-col {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.img {
+    background-position: center;
+    object-fit: fill;
+    height: 70px;
+    width: 250px;
+    border-radius: 35px;
+    border: 0px;
+}
+
+.left-col,
+h3,
+h5 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
